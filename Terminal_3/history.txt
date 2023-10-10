@@ -1,0 +1,7 @@
+  199  cd ~/Desktop
+  200  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+  201  grep -c "France,2019,PHP" wilders.csv > php_france_2019.csv
+  202  grep "Toulouse.*JavaScript" wilders.csv > toulouse.csv
+  203  grep "Biarritz.*JavaScript" wilders.csv > biarritz.csv
+  204  cat toulouse.csv biarritz.csv > javascript_biarritz_toulouse.csv
+  205  history | tail -n 10 >> history.txt
